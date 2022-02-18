@@ -2,12 +2,12 @@ import React from "react";
 
 export default function Storage() {
   return (
-    <div className="relative flex w-full flex-col items-center gap-4 rounded-[10px] bg-[#1E2D69] px-8 pt-8 pb-[3.25rem] xl:mt-[2.938rem] xl:h-[9.625rem] xl:w-[33.75rem] xl:items-start xl:p-10">
+    <div className="relative flex w-full flex-col items-center gap-4 rounded-[10px] bg-[#1E2D69] px-8 pt-8 pb-[3.25rem] shadow-[0px_75px_100px_-30px_rgba(0,0,0,0.2478)] xl:mt-[2.938rem] xl:h-[9.625rem] xl:w-[33.75rem] xl:items-start xl:p-10">
       <p className="text-[0.875rem] font-normal leading-4 tracking-normal text-[#DBD9FF]">
         You’ve used <span className="font-bold">815 GB</span> of your storage
       </p>
       <div className=" flex w-full flex-col gap-[0.625rem] xl:gap-2">
-        <div className="h-[1.25rem] w-full rounded-[10px] bg-[#0C122C] py-[0.188rem] pl-[0.188rem]">
+        <div className="h-[1.25rem] w-full rounded-[10px] bg-[#0C122C]/[49.79] py-[0.188rem] pl-[0.188rem]">
           <div className="relative h-[0.875rem] w-[12.063rem]  rounded-[10px] bg-gradient-to-r from-[#FFA197] to-[#FF4A95] xl:w-[21.188rem]">
             <div className="absolute right-[0.125rem] top-[0.125rem] h-[0.625rem] w-[0.625rem] rounded-full bg-white"></div>
           </div>
