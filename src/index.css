@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply flex h-[100vh] w-full flex-col items-center bg-[url('./images/bg-mobile.png')] bg-cover bg-no-repeat font-['Raleway'] xl:relative xl:bg-[#0C122C] xl:bg-none;
+    @apply grid h-[100vh] w-full place-items-center bg-[url('./images/bg-mobile.png')] bg-cover bg-no-repeat font-['Raleway'] xl:relative xl:bg-[#0C122C] xl:bg-none;
   }
 
   header {
