@@ -6,10 +6,32 @@
 
 @layer base {
   body {
-    @apply flex h-[100vh] w-full flex-col items-center bg-[url('./images/bg-mobile.png')] bg-cover bg-no-repeat font-['Raleway'];
+    @apply flex h-[100vh] w-full flex-col items-center bg-[url('./images/bg-mobile.png')] bg-cover bg-no-repeat font-['Raleway'] xl:relative xl:bg-[#0C122C] xl:bg-none;
   }
 
   header {
     @apply absolute top-[-99999px] left-[-99999px];
+  }
+}
+
+@layer components {
+  @media (min-width: 1280px) {
+    #storage-left::after {
+      content: "";
+      position: absolute;
+      width: 1.416rem;
+      height: 1.416rem;
+      border: 11.33px solid;
+      border-top-color: white;
+      border-right-color: white;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+      right: 0;
+      bottom: -1.354rem;
+    }
+  }
+
+  #desktop-bg-pattern {
+    @apply absolute top-[380px] hidden h-[26.25rem] w-full bg-[url('./images/bg-desktop.png')] bg-cover bg-no-repeat xl:block;
   }
 }
