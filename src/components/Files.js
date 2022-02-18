@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Files() {
   return (
-    <div className="relative flex w-full flex-col gap-[2.063rem] rounded-[10px] rounded-tr-[100px] bg-[#1E2D69] py-[2.5rem] pl-[2.571rem] xl:w-[21.875rem]">
+    <div className="relative flex w-full flex-col gap-[2.063rem] rounded-[10px] rounded-tr-[100px] bg-[#1E2D69] py-[2.5rem] pl-[2.571rem] shadow-[0px_75px_100px_-30px_rgba(0,0,0,0.2478)] xl:w-[21.875rem]">
       <a className="w-[8.438rem]" href="./index.html">
         <svg xmlns="http://www.w3.org/2000/svg" width="135" height="40">
           <path
