@@ -3,7 +3,7 @@ import React from "react";
 export default function Files() {
   return (
     <div className="relative flex w-full flex-col gap-[2.063rem] rounded-[10px] rounded-tr-[100px] bg-[#1E2D69] py-[2.5rem] pl-[2.571rem] shadow-[0px_75px_100px_-30px_rgba(0,0,0,0.2478)] xl:w-[21.875rem]">
-      <a className="w-[8.438rem]" href="./index.html">
+      <a className="w-[8.438rem]" href="./index.html" aria-label="home">
         <svg xmlns="http://www.w3.org/2000/svg" width="135" height="40">
           <path
             fill="#FFF"
@@ -16,6 +16,7 @@ export default function Files() {
         <button
           type="button"
           className="flex h-12 w-12 items-center justify-center rounded-[10px] bg-[#0C122C]"
+          aria-label="document"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="19.24" height="23.98">
             <path
@@ -27,6 +28,7 @@ export default function Files() {
         <button
           type="button"
           className="flex h-12 w-12 items-center justify-center rounded-[10px] bg-[#0C122C]"
+          aria-label="folder"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20">
             <path
@@ -38,6 +40,7 @@ export default function Files() {
         <button
           type="button"
           className="flex h-12 w-12 items-center justify-center rounded-[10px] bg-[#0C122C]"
+          aria-label="upload"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16">
             <path
