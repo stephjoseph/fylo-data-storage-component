@@ -15,11 +15,12 @@ export default function Files() {
       <div className="flex gap-4">
         <button
           type="button"
-          className="flex h-12 w-12 items-center justify-center rounded-[10px] bg-[#0C122C]"
+          className="group flex h-12 w-12 items-center justify-center rounded-[10px] bg-[#0C122C]"
           aria-label="document"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="19.24" height="23.98">
             <path
+              className="group-hover:fill-white group-active:fill-white"
               fill="#697ED4"
               d="M12.028 0H2.436A2.387 2.387 0 00.049 2.398L.037 21.583a2.387 2.387 0 002.387 2.398h14.4a2.397 2.397 0 002.398-2.398V7.194L12.028 0zM10.83 8.393V1.8l6.595 6.594h-6.595z"
             />
@@ -27,11 +28,12 @@ export default function Files() {
         </button>
         <button
           type="button"
-          className="flex h-12 w-12 items-center justify-center rounded-[10px] bg-[#0C122C]"
+          className="group flex h-12 w-12 items-center justify-center rounded-[10px] bg-[#0C122C]"
           aria-label="folder"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20">
             <path
+              className="group-hover:fill-white group-active:fill-white"
               fill="#697ED4"
               d="M21.6 2.4H12L9.6 0H2.4A2.39 2.39 0 00.012 2.4L0 16.8a2.4 2.4 0 002.4 2.4h19.2a2.4 2.4 0 002.4-2.4v-12a2.4 2.4 0 00-2.4-2.4z"
             />
@@ -39,11 +41,12 @@ export default function Files() {
         </button>
         <button
           type="button"
-          className="flex h-12 w-12 items-center justify-center rounded-[10px] bg-[#0C122C]"
+          className="group flex h-12 w-12 items-center justify-center rounded-[10px] bg-[#0C122C]"
           aria-label="upload"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16">
             <path
+              className="group-hover:fill-white group-active:fill-white"
               fill="#697ED4"
               d="M19.4 6c-.7-3.4-3.7-6-7.4-6-2.9 0-5.4 1.6-6.6 4C2.3 4.4 0 6.9 0 10c0 3.3 2.7 6 6 6h13c2.8 0 5-2.2 5-5 0-2.6-2.1-4.8-4.6-5zM14 9v4h-4V9H7l5-5 5 5h-3z"
             />
