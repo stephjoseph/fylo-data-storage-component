@@ -7,7 +7,7 @@ export default function Storage() {
         You’ve used <span className="font-bold">815 GB</span> of your storage
       </p>
       <div className=" flex w-full flex-col gap-[0.625rem] xl:gap-2">
-        <div className="h-[1.25rem] w-full rounded-[10px] bg-[#0C122C]/[49.79] py-[0.188rem] pl-[0.188rem]">
+        <div className="h-[1.25rem] w-full rounded-[10px] bg-[#0C122C]/[0.4979] py-[0.188rem] pl-[0.188rem]">
           <div className="relative h-[0.875rem] w-[12.063rem]  rounded-[10px] bg-gradient-to-r from-[#FFA197] to-[#FF4A95] xl:w-[21.188rem]">
             <div className="absolute right-[0.125rem] top-[0.125rem] h-[0.625rem] w-[0.625rem] rounded-full bg-white"></div>
           </div>
